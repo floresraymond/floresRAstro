@@ -1,7 +1,7 @@
 
 	:root {
-	--color-primary: #2D6858;
-	--color-secondary: #f0ad4a;
+	--color-primary: #093C6B;
+	--color-secondary: #C5C4C4;
 	}
 	html {
 	font-size: 62.5%;
@@ -47,12 +47,11 @@
 	/* Header Section */
 	#pageheader {
 		background-color: var(--color-primary);
-		height: 7.0rem;
-	}
+		height: 7.0rem;	}
 	#pageheader .container
 	{
-		background-color: aquamarine;
-		border: 2px dashed red;
+		background-color: #C5C4C4;
+		border: 2px solid red;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -81,13 +80,16 @@
 	/* header Menu */
 	#menu
 	{
-		background-color: #f0ad4A;
-		border: 2px dashed red;
+		background-color: #093C6B;
+		border: 2px solid red;
 		display: flex;
 		justify-content: space-between;
 		width: 20rem;
 		list-style-type: none;
 		background-color: none;
+		padding: 1rem;
+		border-radius: 15px;
+		
 	}
 #menu li a
 	{
@@ -98,11 +100,12 @@
 	/* Showcase Section Styles */
 	#showcase
 	{
-		border: 2rem solid none;
+		border: .1px solid #093C6B;
 		background-color: var(--color-primary);
 		padding: 3rem;
-		background-image: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-		background-image: url(Images/pond.png);
+
+		background-image: url(/Images/dodgerslalogo.png);
+		
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
@@ -124,10 +127,11 @@
 		text-shadow: 0 0 1rem black;
 		color: white;
 		text-align: center;
+		
 	}
 	#showcase h2
 	{
-		text-align: start;
+		text-align: center;
 		color: #fff;
 	}
 
@@ -141,11 +145,13 @@
 	#showcaseimage
 	{
 		text-align: center;
+		
 	}
 	#showcaseimage img
 	{
 		border-radius: 1rem;
 		margin: auto;
+		
 	}
 	#showcaseintro
 	{
@@ -165,11 +171,17 @@
 	/* End of Showcase Section Styles */
 	
 	/* Features Section */
+
+	#features {
+		background-color: #C5C4C4;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
 	#features .container
 	{
 		padding-top: 2rem;
-		background-color: burlywood;
-		border: 2px dashed red;
+		background-color: #093C6B;
+		border: 2px solid red;
 		display: flex;
 		gap: 1rem;
 		justify-content: space-between;
@@ -188,7 +200,8 @@
 	/* Pagecontent Section */
 	#pagecontent {
 		padding: 2rem 0 2rem 0;
-	background-color: none
+	background-color: #093C6B;
+
 	}
 	#pagecontent h2, h3
 	{
@@ -230,7 +243,7 @@
 
 .thumbnail
 {
-	background-color: burlywood;
+	background-color: #093C6B;
 	border: 2px dashed red;
 	display: flex;
 	justify-content: space-evenly;
@@ -270,11 +283,12 @@
 }
 #pagefooter .container
 {
-	background-color: chocolate;
-	border: 2px red dashed;
+	background-color: #C5C4C4;
+	border: 2px red solid;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	padding-bottom: 1.5rem;
 }
 #pagefooter a
 {
@@ -297,18 +311,19 @@
 
 	/* Media Queries */
 	@media only screen and (min-width: 320px) {
-	#features {
-	background-color: magenta;
-	}
+		
 	}
 	@media only screen and (min-width: 480px) {
-	#features {
-	background-color: yellow;
+
+	#logosbig
+	{
+		display: none;
 	}
 	}
 	@media only screen and (min-width: 768px) {
-	#features {
-	background-color: lime;
+	#logosbig
+	{
+		display: none;
 	}
 	.card
 	{
@@ -324,9 +339,7 @@
 	}
 	}
 	@media only screen and (min-width: 1024px) {
-	#features {
-	background-color: coral;
-	}
+
 	#logosbig
 	{
 		display: block;
@@ -338,12 +351,13 @@
 	}
 	}
 	@media only screen and (min-width: 1200px) {
-	features {
-	background-color: steelblue;
-	}
 	#pagefooterlinks
 	{
 		display: block;
+	}
+	#showcase
+	{
+		background-image: url(/Images/dodgerstadium.jpg);
 	}
 	}
 	
