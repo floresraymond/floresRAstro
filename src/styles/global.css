@@ -44,6 +44,10 @@
 	margin: auto;
 	padding: 0rem 3rem 0rem 3rem;
 	}
+
+
+
+	
 	/* Header Section */
 	#pageheader {
 		background-color: var(--color-primary);
@@ -104,13 +108,16 @@
 		background-color: var(--color-primary);
 		padding: 3rem;
 
-		background-image: url(/Images/dodgerslalogo.png);
+		background-image: url(/Images/betts.jpg);
+		background-image: url(/Images/kershaw.jpg);
+		background-image: url(/Images/ohtani.png);
 		
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom left;
 	}
+
 
 	#showcasetext
 	{
@@ -355,9 +362,9 @@
 	{
 		display: block;
 	}
-	#showcase
+	/* #showcase
 	{
 		background-image: url(/Images/dodgerstadium.jpg);
-	}
+	} */
 	}
 	
