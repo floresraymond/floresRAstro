@@ -9,7 +9,7 @@ author: "Raymond Flores"
  # Recombiant DNA
 
 
-![Timeline ](Images/1200px-Recombinant_formation_of_plasmids.svg.png)
+![Timeline](Images/recombiantdna.png)
 
 Notes
 
