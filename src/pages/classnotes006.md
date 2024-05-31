@@ -9,7 +9,6 @@ author: "Raymond Flores"
  # Recombiant DNA
 
 
-![Timeline](Images/recombiantdna.png)
 
 Notes
 
