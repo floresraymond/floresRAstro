@@ -3,8 +3,7 @@
 Raymond Flores -
 11-2-23 -
 Pd. 5
- b
-![Timeline ](Images/image.png)
+
 
 * The reason for the U.S involvement in WWII is the bombing of pearl harbor
 
