@@ -1,3 +1,10 @@
+---
+title: "Graphing Inverse"
+description: "Functions and Inverses" 
+class: "Math"
+date: 2024-11-3
+author: "Raymond Flores"
+---
 # Math 
 
 ## Graphing Inverse
@@ -14,9 +21,9 @@
 |----------|-------|
    |  f(x)| f^-1(x)
 
-![Graphing Inverses Table](Images/table.jpg ' Inverse graph Table')
+![Graphing Inverses Table](./Images/table.jpg ' Inverse graph Table')
 
-![Graphing Inverses](Images/inversegraph5935042859602943344.png ' Inverse graph')
+![Graphing Inverses](./Images/inversegraph5935042859602943344.png ' Inverse graph')
 
 
  

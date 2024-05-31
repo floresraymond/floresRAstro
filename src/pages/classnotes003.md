@@ -6,7 +6,7 @@
 
 [WAR](https://www.youtube.com/watch?v=jA9neyKI62k 'Go to Youtube')
 
-![Timeline ](Images/4ba79408454267ca415d4ae62f8510bb14997a4c.webp)
+![Timeline ](./Images/4ba79408454267ca415d4ae62f8510bb14997a4c.webp)
 
 Key Terms
 

@@ -19,4 +19,4 @@ Treatments
 * Last for 6-9 months
 * TB is becoming very antibiotic resistible
 
-![TB image](Images/markdownnotes1.jpeg 'TB Image')
+![TB image](./Images/markdownnotes1.jpeg 'TB Image')

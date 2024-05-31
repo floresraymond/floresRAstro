@@ -1,4 +1,10 @@
-# Lab Bio 2
+---
+title: "Graham Stain"
+description: "A test to identify positive and negative bacteria" 
+class: "Lab Biology II"
+date: 2024-11-10
+author: "Raymond Flores"
+---
 
 ## Gram Stain Test
 
@@ -16,6 +22,6 @@
 
 * Positive has one
 
-![Gram Stain](Images/gram.jpeg ' Gram Stain')
+![Gram Stain](./Images/gram.jpeg ' Gram Stain')
 
-![Gram Stain](Images/test.png ' Gram Stain')
+![Gram Stain](./Images/test.png ' Gram Stain')
